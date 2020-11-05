@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link type="text/css" rel="stylesheet" href="mystyle.css"/>
 </head>
-<body background="img/bgg.jpg">
+<body class="contact"
     <nav>
         <img src="img/logo.png" alt="" width="5%">
         <table bgcolor="#e4f2f1" border="0" cellspacing="0" cellpadding="7" width="1336px"><tr>
@@ -40,10 +41,13 @@
                 <tr> <td>Rate Form</td>
                     <td>: <input type="range" name="points" min="0" max="10"></td>
                 </tr>
+                <tr>
+                    <td>Masukkan File</td>
+                    <td>: <input id="berkas" name="berkas" type="file" /></td>
                 </tr>
                 <tr>
-                    <td><input type="submit" name="Submit" value="Submit"></td>
-                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" class="button1" value="Submit"> </td>
+                    <td><input type="reset" class="button1"></td>
                 </tr>
                 </table>
             </form>
